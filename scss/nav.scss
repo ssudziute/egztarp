@@ -1,0 +1,41 @@
+nav{
+    background: $white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: $blue;
+    text-align: left;
+
+   a {
+    text-decoration: none;
+    color: $blue;
+    line-height: 35px;
+    font-size: 1em;
+    padding-left: 15px;
+    
+    
+   } }
+
+   .dot {
+    font-size: 0.5em;
+   }
+
+    .dot, p {
+        color: $gray;
+    }
+
+    p {
+        padding-left: 15px;
+    }
+
+    @media (max-width: 768px) {
+        nav {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+  
+   
+    
+    
+

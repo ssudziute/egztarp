@@ -1,0 +1,25 @@
+
+ .feedback {
+    @include section;
+  
+
+    img {
+        border-radius: 50%;
+        box-shadow: 1px 5px #b6bdc4;
+        height: 300px;
+    }
+}
+
+// mobile
+
+@media (max-width: 768px) {
+    .feedback{
+        flex-direction: column;
+        width: 400px;
+        text-align: center;
+    }
+}
+
+
+
+

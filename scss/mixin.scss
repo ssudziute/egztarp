@@ -1,0 +1,62 @@
+@mixin link {
+      width: 200px;
+      height: 25px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      padding: 10px;
+  }
+
+  @mixin button {
+    color: white;
+    background: $blue;
+    width:60px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding-top: 0;
+    transition: 0.3s;
+  
+
+  &:hover {
+    box-shadow: 0 0 2px gray;
+    transform: scale(1.05);
+  }
+  }
+
+  @mixin h {
+        display: inline-block;
+        position:relative;
+        padding: 50px;
+        font-weight: 1em;
+        height: 40px;
+  }
+
+  @mixin main {
+    background: $picture;
+    background-size:100% 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  @mixin section {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    gap: 25px;
+    background: $white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    ul {
+        list-style: none;
+    }
+  }

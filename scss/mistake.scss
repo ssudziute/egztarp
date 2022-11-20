@@ -1,0 +1,14 @@
+span h2 {
+    text-align: center;
+    background: $white;
+
+}
+
+// media 
+
+@media (max-width: 768px) {
+    span h2{
+        display: none;
+    }
+        
+}

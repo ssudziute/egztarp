@@ -1,0 +1,49 @@
+
+main {
+  @include main;
+  }
+
+
+    h1 {
+        @include h;
+
+    }
+ 
+  input {
+   @include link;
+
+  }
+
+  .email {
+    padding: 10px;
+  }
+
+
+    button {
+     @include button;
+    }
+
+    @media (max-width: 768px ){
+      main {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 30px 10px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      input, button {
+        text-align: center;
+        display: block;
+        width: 96%;
+        margin: 10px;
+        margin-bottom: 10px;
+        height: 45px;
+        font-size: 20px;
+      }
+    }
+  
+    
